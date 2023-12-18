@@ -82,7 +82,7 @@ export async function onClickBtnLoadMore() {
 }
 
 function cleanGallery() {
-  rselectors.gallery.innerHTML = '';
+  selectors.gallery.innerHTML = '';
   page = 1;
   hideBtnLoadMore();
 }
