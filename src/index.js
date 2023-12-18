@@ -1,5 +1,5 @@
 import { onClickBtnLoadMore, onFormSubmit } from './js/handlers';
-import { refs } from './js/selectors';
+import { selectors } from './js/selectors';
 
-refs.form.addEventListener('submit', onFormSubmit);
-refs.loadMoreBtn.addEventListener('click', onClickBtnLoadMore);
+selectors.form.addEventListener('submit', onFormSubmit);
+selectors.loadMoreBtn.addEventListener('click', onClickBtnLoadMore);
